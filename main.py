@@ -3,6 +3,7 @@ import git
 with open('api.key', 'r') as file:
     token = file.read()
 
+# Commit Changes
 repo = git.Repo('./')
 commit_message = 'Commit Test from Script'
 repo.git.add('--all')
