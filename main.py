@@ -9,7 +9,7 @@ repo.git.add('--all')
 repo.index.commit(commit_message)
 
 # Push changes to GitHub
-origin = repo.remote(name='UwU')
+origin = repo.remote(name='origin')
 origin_url = origin.url.replace('https://', f'https://{token}@')
 origin.url = origin_url
 origin.push()
