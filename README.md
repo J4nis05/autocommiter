@@ -1,6 +1,6 @@
 # autocommiter
-A Tool that commits automatically
-using Python and crontab
+A Tool that automatically commits 1 Line of the Bee Movie Script
+everyday using Python and crontab
 
 ## Add Access Token To Credential Store
 ### With UI
